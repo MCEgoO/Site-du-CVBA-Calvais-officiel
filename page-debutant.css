@@ -1,0 +1,123 @@
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Lexend', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+.box-1{
+    background-color: #A7001E;
+}
+
+.box-title{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.box-title h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 24px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.box-2{
+    border: 2px solid #A7001E;
+    margin: 10px;
+}
+
+@media screen and (min-width:1000px) {
+    .box-2{
+        border: none;
+    }
+}
+
+.box-information{
+    padding: 10px;
+}
+
+.box-information h4{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 16px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 3px solid gray;
+    display: inline;
+    overflow: hidden;
+}
+
+.box-information li{
+    margin-top: 10px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.box-programme-dispo{
+    margin: 10px;
+    text-align: center;
+}
+
+.box-programme-dispo h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 15px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline;
+}
+
+@media screen and (min-width:1000px) {
+    .box-programme-dispo h1{
+        font-size: 24px;
+    }
+}
+
+.box-programmes img{
+    width: 30%;
+    height: 30%;
+}
+
+.programmes{
+    margin: 15px 20px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid #A7001E;
+    text-align: center;
+}
+
+@media screen and (min-width:1000px){
+    .programmes{
+        margin: 45px;
+        padding: 30px;
+    }
+}
+
+.programmes h4{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: #A7001E;
+}
+
+.programmes p{
+    font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #A7001E;
+}
+
+
